@@ -1,4 +1,3 @@
 # Project credits
 
-* David J. Thomas - Project Management, Coding, Visualizations, and Analysis
-* Students of HIS4936, Hacking History: Programming Digital Scholarship
+* Michael Wedebrock - Project Management, Historiography, Methodology and Digital Methods, Web scraping, and Analysis
