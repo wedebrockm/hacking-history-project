@@ -4,7 +4,7 @@ In order to apply any kind of digital practice to an analysis of the *Pro Caelio
 
 So that others can easily test and apply my methodology, I will be explicit in recounting it. Using the freeware, *Web Scraper* in Google’s *Chrome* browser, one can scrape the text off Perseus’s website, first by identifying the text they would like to scrape on the page and adding it as a selector, then by identifying the links that the scraper would cycle through as an additional selector. One then simply needs to make a copy of the text selector and place it within the branch of the link selector. The *Web Scraper* can then be activated and it will scrape the text.
 
-(Methodology Image 1)
+![alt text](https:github.com/wedebrockm/hacking-history-project/tree/master/docs/imgs/included/Pictures%20for%20Project/Picture1.jpg)
 
 Next, the scraped information needed to be scrubbed to make the text searchable before finally placing the text in a program that allowed for easy searching within the document.  If this process were not completed, it would lead to the search missing names and suffixes for verb endings, so this step is essential to the process.  I was in luck that the still in development *Arakhne* program was available for my use, and although it currently lacks some advanced features that its curator plans to implement in the future, it is nonetheless a stellar Latin text scrubber.  Unfortunately, *Arakhne* is not yet ready to run on Windows machines, but luckily custom-created environments exist to circumvent this.  For this purpose, I used *DHbox*, a tool created expressly for digital humanities research to act as a platform within which *Arakhne* could run.
 
