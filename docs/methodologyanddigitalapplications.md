@@ -10,22 +10,24 @@ Next, the scraped information needed to be scrubbed to make the text searchable 
 
 Two functions within *Arakhne* that are of great aid to textual analysis are its scrubbing and lemmatizing features.  The scrubbing feature, as previously mentioned, allows for an easy scanning of the text. By copying the code intended for this use, *Arakhne* scrubbed the program.
 
-(Methodology Image 2)
+![alt text](https://raw.githubusercontent.com/wedebrockm/hacking-history-project/master/docs/imgs/included/Pictures%20for%20Project/Picture2.jpg)
 
 After scrubbing, the processed text was copied from a .csv file into a Microsoft *Word* document.
 
-(Methodology Image 3)
+![alt text](https://raw.githubusercontent.com/wedebrockm/hacking-history-project/master/docs/imgs/included/Pictures%20for%20Project/Picture3.jpg)
 
 The lemmatizing feature is equally impressive and important as it morphs the words from their various forms into uniform cases and declensions, so that specific words can easily be located through any search feature. The lemmatized version, for sake of comparison, is shown below.
 
-(Methodology Image 4)
+![alt text](https://raw.githubusercontent.com/wedebrockm/hacking-history-project/master/docs/imgs/included/Pictures%20for%20Project/Picture5.jpg)
 
 Although the aims of this project reduced the utility of the lemmatized version, it was particularly important to obtain an accurate count of each name that was included in the final analysis. Because case endings for names vary in Latin as much as any other noun, it would be difficult to obtain an accurate count to make certain that the search feature found every iteration of each name. The lemmatized text largely eliminates this problem, since each name is reset to a single ending, making it easily searchable.
 
 After obtaining the proper count for each name in the lemmatized text, I turned towards the actual text analysis.  Each name and passive verb ending was marked via the find feature in *Word*. An example of this process is shown below.
 
+![alt text](https://raw.githubusercontent.com/wedebrockm/hacking-history-project/master/docs/imgs/included/Pictures%20for%20Project/Picture6.jpg)
+
 When searching for passive verb endings, the “match suffix” feature was utilized for the find feature to locate only verb endings and not combinations of letters that might appear earlier in words.  The result of highlighting different names and endings can be seen below.
 
-(Methodology Image 5)
+![alt text](https://raw.githubusercontent.com/wedebrockm/hacking-history-project/master/docs/imgs/included/Pictures%20for%20Project/Picture7.jpg)
 
 An immediate limitation in the find feature was that there was no realistic way around fourth principal part, passive verbs, as *sum* has too many irregularities and uses in Latin grammar to be useful in identifying these verbs and the endings in the verbs themselves are too typical as noun endings. This unfortunately required that I read the context around each name to identify these verbs.  While the matter was made much easier than it would have otherwise been in reading the text without name and ending highlighting, it shows that there is still much work to be done to make textual analysis of grammar completely streamlined.
