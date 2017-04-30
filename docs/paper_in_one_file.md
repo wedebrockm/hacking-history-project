@@ -1,4 +1,4 @@
-# Textual Analysis: Cicero's use of Voice and subject-object dynamics in his *Pro Caelio Oratio*
+# Textual Analysis: Cicero's Use of Voice and Subject-Object Dynamics in his *Pro Caelio Oratio*
 
 ## Introduction
 
