@@ -21,31 +21,55 @@ In order to apply any kind of digital practice to an analysis of the *Pro Caelio
 
 So that others can easily test and apply my methodology, I will be explicit in recounting it. Using the freeware, *Web Scraper* in Google’s *Chrome* browser, one can scrape the text off Perseus’s website, first by identifying the text they would like to scrape on the page and adding it as a selector, then by identifying the links that the scraper would cycle through as an additional selector. One then simply needs to make a copy of the text selector and place it within the branch of the link selector. The *Web Scraper* can then be activated and it will scrape the text.
 
+---
+
 ![alt text](https://raw.githubusercontent.com/wedebrockm/hacking-history-project/master/docs/imgs/included/Pictures%20for%20Project/Picture1.jpg)
+
+---
 
 Next, the scraped information needed to be scrubbed to make the text searchable before finally placing the text in a program that allowed for easy searching within the document.  If this process were not completed, it would lead to the search missing names and suffixes for verb endings, so this step is essential to the process.  I was in luck that the still in development *Arakhne* program was available for my use, and although it currently lacks some advanced features that its curator plans to implement in the future, it is nonetheless a stellar Latin text scrubber.  Unfortunately, *Arakhne* is not yet ready to run on Windows machines, but luckily custom-created environments exist to circumvent this.  For this purpose, I used *DHbox*, a tool created expressly for digital humanities research to act as a platform within which *Arakhne* could run.
 
 Two functions within *Arakhne* that are of great aid to textual analysis are its scrubbing and lemmatizing features.  The scrubbing feature, as previously mentioned, allows for an easy scanning of the text. By copying the code intended for this use, *Arakhne* scrubbed the program.
 
+---
+
 ![alt text](https://raw.githubusercontent.com/wedebrockm/hacking-history-project/master/docs/imgs/included/Pictures%20for%20Project/Picture2.jpg)
+
+---
 
 After scrubbing, the processed text was copied from a .csv file into a Microsoft *Word* document.
 
+---
+
 ![alt text](https://raw.githubusercontent.com/wedebrockm/hacking-history-project/master/docs/imgs/included/Pictures%20for%20Project/Picture3.jpg)
+
+---
 
 The lemmatizing feature is equally impressive and important as it morphs the words from their various forms into uniform cases and declensions, so that specific words can easily be located through any search feature. The lemmatized version, for sake of comparison, is shown below.
 
+---
+
 ![alt text](https://raw.githubusercontent.com/wedebrockm/hacking-history-project/master/docs/imgs/included/Pictures%20for%20Project/Picture5.jpg)
+
+---
 
 Although the aims of this project reduced the utility of the lemmatized version, it was particularly important to obtain an accurate count of each name that was included in the final analysis. Because case endings for names vary in Latin as much as any other noun, it would be difficult to obtain an accurate count to make certain that the search feature found every iteration of each name. The lemmatized text largely eliminates this problem, since each name is reset to a single ending, making it easily searchable. The exception cases occurred when some names were not recognized within the word list that Arakhne operates on. Fortunately, there were only a few that went unrecognized and this problem was solved by searching for the beginning of each person’s name and individually filtering out undesired findings. As an example, for Herennius’s name in the text the search “Herren” was used, which netted two search results, both of which referred to Herennius and not another noun.
 
 After obtaining the proper count for each name in the lemmatized text, I turned towards the actual text analysis.  Each name and passive verb ending was marked via the find feature in *Word*. An example of this process is shown below.
 
+---
+
 ![alt text](https://raw.githubusercontent.com/wedebrockm/hacking-history-project/master/docs/imgs/included/Pictures%20for%20Project/Picture6.jpg)
+
+---
 
 When searching for passive verb endings, the “match suffix” feature was utilized for the find feature to locate only verb endings and not combinations of letters that might appear earlier in words.  The result of highlighting different names and endings can be seen below.
 
+---
+
 ![alt text](https://raw.githubusercontent.com/wedebrockm/hacking-history-project/master/docs/imgs/included/Pictures%20for%20Project/Picture7.jpg)
+
+---
 
 An immediate limitation in the find feature was that there was no realistic way around fourth principal part, passive verbs, as *sum* has too many irregularities and uses in Latin grammar to be useful in identifying these verbs and the endings in the verbs themselves are too typical as noun endings. This unfortunately required that I read the context around each name to identify these verbs.  While the matter was made much easier than it would have otherwise been in reading the text without name and ending highlighting, it shows that there is still much work to be done to make textual analysis of grammar completely streamlined.
 
@@ -53,7 +77,11 @@ An immediate limitation in the find feature was that there was no realistic way 
 
 The final tally noting the juxtaposition of passive-active verbs and the function of prosecutor’s and defender’s names as subjects (or subject-modifying) or objects (or object-modifying) in Cicero’s syntax can be seen in the table below.   It should be noted that since the aim of this work was to use the text search functions to their utmost, Cicero’s references to these characters without explicit mention of their names were not included in the final tally.
 
+---
+
 ![alt text](https://raw.githubusercontent.com/wedebrockm/hacking-history-project/master/docs/imgs/included/Pictures%20for%20Project/Picture8.jpg)
+
+---
 
 While the above note is an enormous caveat, that would be the work of a much larger project, perhaps one that also included a more detailed analysis of the context in which these dynamics ensued.  Still, there are some cases from this sample that are worth mentioning.  Explicit mentions of Clodia and Atratinius are only mentioned as objects. The only exception to this rule is when Clodia’s name appears with Caelius.  This placement as an object might have enhanced Cicero’s invective.  While this is a curious phenomenon, without a deeper look at when Clodia is referenced as a pronoun rather than by name, this trend remains inconclusive due to sample size.  This assumption also seems more doubtful when one notes that Caelius’ name often appears as an object.  Instead, it seems more likely that he wanted those particular names to linger in the mind of his listeners.
 
@@ -64,6 +92,8 @@ Overall, rather than revealing as much about Cicero’s use of the active and pa
 The findings of this study demonstrate a few noteworthy concepts when it comes to applying digital methodologies to textual analyses. First, it seems clear that applied technologies, even though they are still even today in their infancy, have remarkable potential in allowing for a faster reading and analysis of texts. Once I learned how to utilize the web scraping tool, *Arakhne* to clean the text, and some advanced functions of the *Word* find tool, it was a straightforward process to scrape, scrub, and analyze the text itself. Admittedly, the simplicity of my approach handicapped my efforts in some regards, and as a result that I had to supplement these technologies with different strategies in order to realize the final project goals. A prime example of this would be searching for part of certain names that weren't in the existing work catalogue, or having to manually read portions of the text because there was no easy way to categorize participles using the find feature.  In retrospect, this project would have been aided by finding or creating tools for parsing the text itself for verb voice. This perhaps reveals some current holes in the field, as to my knowledge no such automated programs are available. Instead, digital methods must necessarily remain supplementary at the moment to traditional methods for parsing texts.
 
 Still, the value of using digital tools in text analysis seems vindicated through how much time it saved.  Sifting through the entire *Pro Caelio* by hand would have required a substantially greater time investment when compared to compartmentalizing the text via *Arakhne* and *Web Scraper*.  Further, the *Pro Caelio* is a relatively short text, so the time saved would be multiplied on a massive scale if one attempted to translate a much larger work or corpuses of writings.  In sum, the digital field is a growing one, and as new technologies emerge the methodological field will continue to expand and become increasingly important for scholars to utilize.
+
+---
 
 # Bibliography
 
